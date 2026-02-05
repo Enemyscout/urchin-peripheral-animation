@@ -26,7 +26,7 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 LV_IMG_DECLARE(fuchs);
 LV_IMG_DECLARE(fuchs1);
 
-const lv_img_desc_t *img_list[] = {
+const lv_img_dsc_t *img_list[] = {
   &fuchs,
   &fuchs1
 };
