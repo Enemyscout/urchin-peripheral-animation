@@ -96,12 +96,12 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FUCHS uin
 };
 
 const lv_img_dsc_t fuchs = {
-  .header.cf = LV_IMG_CF_ALPHA_1BIT,
+  .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 140,
   .header.h = 68,
-  .data_size = 1224,
+  .data_size = 1232,
   .data = fuchs_map,
 };
 
@@ -190,12 +190,12 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FUCHS1 ui
 };
 
 const lv_img_dsc_t fuchs1 = {
-  .header.cf = LV_IMG_CF_ALPHA_1BIT,
+  .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 140,
   .header.h = 68,
-  .data_size = 1224,
+  .data_size = 1232,
   .data = fuchs1_map,
 };
 
