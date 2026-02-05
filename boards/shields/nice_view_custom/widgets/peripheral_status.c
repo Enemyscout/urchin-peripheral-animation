@@ -25,6 +25,11 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 
 LV_IMG_DECLARE(fuchs);
 LV_IMG_DECLARE(fuchs1);
+LV_IMG_DECLARE(horse);
+LV_IMG_DECLARE(hund);
+LV_IMG_DECLARE(possum2);
+LV_IMG_DECLARE(possum);
+LV_IMG_DECLARE(racoon);
 
 const lv_img_dsc_t *img_list[] = {
   &fuchs,
