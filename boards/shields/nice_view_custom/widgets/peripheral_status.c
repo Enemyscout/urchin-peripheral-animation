@@ -28,7 +28,12 @@ LV_IMG_DECLARE(fuchs1);
 
 const lv_img_dsc_t *img_list[] = {
   &fuchs,
-  &fuchs1
+  &fuchs1,
+  &horse,
+  &hund,
+  &possum2,
+  &possum,
+  &racoon
 };
 
 #define IMAGECOUNT (sizeof(img_list) / sizeof(img_list[0]))
